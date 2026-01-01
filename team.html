@@ -28,6 +28,43 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Mobile Menu Logo */
+        .mobile-menu__logo {
+            justify-content: center;
+        }
+
+        /* JUW Logo */
+        .mobile-logo-juw {
+            max-width: 80px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* JTECH Logo */
+        .mobile-logo-jtech {
+            max-width: 90px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Extra small devices */
+        @media (max-width: 480px) {
+            .mobile-logo-juw {
+                max-width: 60px;
+            }
+
+            .mobile-logo-jtech {
+                max-width: 70px;
+            }
+        }
+
+        @media (min-width : 1200px) {
+            .cnt {
+                max-width: 1100px !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="home-one-bg">
@@ -832,8 +869,9 @@
                 <div class="header-left">
                     <!-- Logo Start -->
                     <div class="logo">
-                        <a href="index-2.html" class="link">
-                            <img src="assets/images/logo/logo.png" alt="Logo"
+                        <a href="index.html" class="link">
+                            <img src="assets/images/logo/logo_juw.png" alt="Logo" width="90">
+                            <img src="assets/images/logo/logo_jtech.png" alt="Logo"
                                 class="max-w-lg-200-px max-w-sm-150-px max-w-100-px">
                         </a>
                     </div>
@@ -841,395 +879,56 @@
                 </div>
 
 
-                <!-- Header Right start -->
-                <div class="header-right d-flex align-items-center gap-lg-4 gap-3">
+                <!-- Main Header Right start -->
+                <div class="header-right d-flex align-items-center gap-4 main">
                     <!-- Menu Start  -->
                     <div class="header-menu d-xl-block d-none">
                         <!-- Nav menu Start -->
                         <ul class="nav-menu d-xl-flex align-items-center tw-gap-8 tw-px-8">
-                            <li class="nav-menu__item has-submenu activePage">
-                                <a href="javascript:void(0);"
-                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Home</a>
-                                <!-- mega menu start -->
-                                <div
-                                    class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-z-99">
-                                    <div class="row g-4 row-cols-1 row-cols-xl-3">
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-2.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img1.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-2.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-2.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        One</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-3.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img2.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-3.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-3.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        Two</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-4.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img3.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-4.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-4.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        Three</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-5.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img4.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-5.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-5.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        Four</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-5.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img5.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-6.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-6.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        Five</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="mega-menu-item group-item">
-                                                <div
-                                                    class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                    <a href="index-7.html" class="d-block">
-                                                        <img src="assets/images/thumbs/home-img6.webp"
-                                                            alt="Home Page Image"
-                                                            class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                    </a>
-                                                    <div class="d-lg-flex d-none">
-                                                        <div
-                                                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                        </div>
-                                                        <div
-                                                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                            <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                                href="index-7.html">
-                                                                <span class="theme-btn-arrow-icon">
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                    <i class="ph ph-arrow-up-right"></i>
-                                                                </span>
-                                                                <span class="theme-btn-text"> Live Preview </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tw-mt-4 text-center">
-                                                    <a href="index-7.html"
-                                                        class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                        Six</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- mega menu end -->
-                                <ul
-                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99 d-xl-none">
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-2.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home One</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-3.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home Two</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-4.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home Three</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-5.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home Four</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-6.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home Five</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="index-7.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Home Six</a>
-                                    </li>
-                                </ul>
+                            <li class="nav-menu__item activePage">
+                                <a href="index.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Home</a>
                             </li>
-                            <li class="nav-menu__item has-submenu position-relative">
-                                <a href="javascript:void(0);"
-                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Pages</a>
-                                <ul
-                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="about.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            About Us</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="event-gallery.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Event Gallery</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="team.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Team</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="team-details.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Team Details</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="pricing.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Pricing</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="faq.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            FAQ</a>
-                                    </li>
-                                </ul>
+
+                            <li class="nav-menu__item ">
+                                <a href="team.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Team</a>
                             </li>
-                            <li class="nav-menu__item has-submenu position-relative">
-                                <a href="javascript:void(0);"
-                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Events</a>
-                                <ul
-                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="all-events.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Events
-                                        </a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="events-details.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">Events
-                                            Details</a>
-                                    </li>
-                                </ul>
+                            <li class="nav-menu__item ">
+                                <a href="events-details.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Event
+                                    Details</a>
                             </li>
-                            <li class="nav-menu__item has-submenu position-relative">
-                                <a href="javascript:void(0);"
-                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Shop</a>
-                                <ul
-                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="shop.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Shop</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="shop-details.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Shop Details</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="cart.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Cart</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="checkout.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Checkout</a>
-                                    </li>
-                                </ul>
+                            <li class="nav-menu__item ">
+                                <a href="events-details.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Sponsors</a>
                             </li>
-                            <li class="nav-menu__item has-submenu position-relative">
-                                <a href="javascript:void(0);"
-                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Blog</a>
-                                <ul
-                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="blog.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Blog</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="blog-list.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Blog List</a>
-                                    </li>
-                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                        <a href="blog-details.html"
-                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                            Blog Details</a>
-                                    </li>
-                                </ul>
+                            <li class="nav-menu__item ">
+                                <a href="event-gallery.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Gallery</a>
                             </li>
                             <li class="nav-menu__item">
-                                <a href="contact.html"
-                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Contacts</a>
+                                <a href="about.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="about.html"
+                                    class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Projects</a>
                             </li>
                         </ul>
                         <!-- Nav menu End  -->
                     </div>
                     <!-- Menu End  -->
 
-                    <!-- Cart Start -->
-                    <div class="header-cart">
-                        <button class="btn-cart position-relative" id="cartButton">
-                            <i class="ph ph-shopping-cart"></i>
-                            <span
-                                class="cart-count position-absolute top-0 start-100 translate-middle badge tw-text-xs rounded-pill bg-danger">3</span>
-                        </button>
-                    </div>
-                    <!-- Cart End -->
+
 
 
                     <!-- Button Start  -->
                     <div class="header-button">
                         <a class="theme-btn-main bg-main-two-600 text-heading hover-text-heading tw-hover-btn"
                             href="javascript:void(0);">
-                            <span class="theme-btn-text"> Buy A Ticket </span>
+                            <span class="theme-btn-text"> Register Now </span>
                             <span class="theme-btn-icon">
                                 <i class="ph-fill ph-ticket"></i>
                             </span>
@@ -1261,39 +960,22 @@
     </header>
     <!-- ==================== Header End Here ==================== -->
     <div id="scrollSmoother-container">
-        <!-- ==================== Breadcrumb Start Here ==================== -->
-        <section class="breadcrumb-area position-relative z-1 overflow-hidden bg-img"
-            data-background-image="assets/images/thumbs/breadcrumb-bg.webp">
+        <div class="brand-five-area py-120 overflow-hidden position-relative z-1">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div>
-                            <ul
-                                class="d-flex align-items-center justify-content-center tw-gap-4 mb-3 flex-wrap breadcrumb-list">
-                                <li class="tw-text-lg fw-medium">
-                                    <a href="index-2.html"
-                                        class="text--white hover--translate-y-1 hover-underline d-inline-flex align-items-center tw-gap-3 ">
-                                        Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <span class="d-inline-flex lh-1"><i
-                                            class="ph-bold ph-caret-right text--white"></i></span>
-                                </li>
-                                <li class=" tw-text-lg fw-medium"> <span class="text--white"> Event Speakers </span>
-                                </li>
-                            </ul>
-                            <h2 class="breadcrumb-title text-center text--white text-uppercase lh-1">
-                                EVENT SPEAKERS</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-wrapper mb-0">
+                            <h2 class="section-title">
+                                Core Team
+                            </h2>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- ==================== Breadcrumb End Here ==================== -->
 
+            </div>
+        </div>
         <!-- ============================ team section Start ======================================= -->
-        <section class="team-six-area speaker-six-area pt-120 position-relative z-1 overflow-hidden">
+        <section class="team-six-area speaker-six-area  position-relative z-1 overflow-hidden">
             <div class="container">
 
                 <div class="row g-4 position-relative">
@@ -1302,16 +984,16 @@
                         <div class="team-six-card img-glitch-wrapper position-relative z-1" data-aos="fade-up"
                             data-aos-duration="1000" data-aos-delay="300">
                             <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
-                                <img src="assets/images/thumbs/speaker-six-img1.webp" alt="team"
+                                <img src="assets/images/team/khadija.jpeg" alt="team"
                                     class="team-thumb w-100">
-                                <img src="assets/images/thumbs/speaker-six-img1.webp" alt="team"
+                                <img src="assets/images/team/khadija.jpeg" alt="team"
                                     class="team-thumb w-100">
                             </div>
                             <div class="team-six-card-content">
-                                <p class="team-title text-center text--white tw-mb-2">S&P Analyzer</p>
+                                <p class="team-title text-center text--white tw-mb-2">President</p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                        Ravi Iyer
+                                        Khadija Zulfiqar (SE'23)
                                     </a>
                                 </h5>
                             </div>
@@ -1322,16 +1004,16 @@
                         <div class="team-six-card img-glitch-wrapper position-relative z-1" data-aos="fade-up"
                             data-aos-duration="1000" data-aos-delay="400">
                             <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
-                                <img src="assets/images/thumbs/speaker-six-img2.webp" alt="team"
+                                <img src="assets/images/team/lamia.jpeg" alt="team"
                                     class="team-thumb w-100">
-                                <img src="assets/images/thumbs/speaker-six-img2.webp" alt="team"
+                                <img src="assets/images/team/lamia.jpeg" alt="team"
                                     class="team-thumb w-100">
                             </div>
                             <div class="team-six-card-content">
-                                <p class="team-title text-center text--white tw-mb-2">S&P Analyzer</p>
+                                <p class="team-title text-center text--white tw-mb-2">Vice President</p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                        Esther Howard
+                                        Lamia Memon (CS'23)
                                     </a>
                                 </h5>
                             </div>
@@ -1342,16 +1024,16 @@
                         <div class="team-six-card img-glitch-wrapper position-relative z-1" data-aos="fade-up"
                             data-aos-duration="1000" data-aos-delay="500">
                             <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
-                                <img src="assets/images/thumbs/speaker-six-img3.webp" alt="team"
+                                <img src="assets/images/team/muskan.jpeg" alt="team"
                                     class="team-thumb w-100">
-                                <img src="assets/images/thumbs/speaker-six-img3.webp" alt="team"
+                                <img src="assets/images/team/muskan.jpeg" alt="team"
                                     class="team-thumb w-100">
                             </div>
                             <div class="team-six-card-content">
-                                <p class="team-title text-center text--white tw-mb-2">S&P Analyzer</p>
+                                <p class="team-title text-center text--white tw-mb-2">Director</p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                        Devon Lane
+                                        Muskan Kamran (SE'23)
                                     </a>
                                 </h5>
                             </div>
@@ -1364,14 +1046,13 @@
                             <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
                                 <img src="assets/images/thumbs/speaker-six-img4.webp" alt="team"
                                     class="team-thumb w-100">
-                                <img src="assets/images/thumbs/speaker-six-img4.webp" alt="team"
-                                    class="team-thumb w-100">
+                            
                             </div>
                             <div class="team-six-card-content">
-                                <p class="team-title text-center text--white tw-mb-2">S&P Analyzer</p>
+                                <p class="team-title text-center text--white tw-mb-2">Director</p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                        Cody Fisher
+                                        Eiman
                                     </a>
                                 </h5>
                             </div>
@@ -1423,104 +1104,102 @@
         </section>
         <!-- ============================ team section End ======================================= -->
 
-        <!-- ============================ Brand section Start ======================================= -->
-        <div class="brand-five-area py-120 overflow-hidden position-relative z-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-wrapper mb-0">
-                            <h2 class="section-title">
-                                Cadence Contributors
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-cols-xl-6 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 g-xl-5 g-4 justify-content-center"
-                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img1.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img2.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img3.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img4.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img5.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img6.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img7.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img8.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img9.png" alt="brand"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-five-img10.png" alt="brand"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ============================ Brand section End ======================================= -->
-
         <!-- ==================== Footer Start Here ==================== -->
-        <footer class="footer-two position-relative z-1 bg-img overflow-hidden"
+        <footer class="footer position-relative z-1 bg-img overflow-hidden"
             data-background-image="assets/images/thumbs/footer-bg-img1.webp">
-            <div class="py-120 border-bottom border-neutral-800">
+            <div class="py-120">
                 <div class="container">
                     <div class="row justify-content-between g-4">
 
-                        <div class="col-xl-3 col-md-6">
+                        <div class="col-xl-4 col-md-4">
                             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                                <a href="index-2.html" class="footer-logo tw-mb-10">
-                                    <img src="assets/images/logo/logo.png" alt="Logo">
+                                <a href="index.html" class="footer-logo tw-mb-10">
+                                    <img src="assets/images/logo/logo_jtech.png" alt="Logo" width="150">
                                 </a>
                                 <p class="tw-mb-8 text--white-70 fw-medium">
-                                    Middlest 2 East 42nd Streearketplace New York, NY 10017
+                                    Making better things takes time. Drop us your email to stay in the know as we work.
                                 </p>
-                                <div>
-                                    <a class="font-heading fw-bold tw-text-xl d-block text--white hover-text--white"
-                                        href="tel:2085550112">+208-555-0112</a>
-                                    <a href="mailto:yourdomain@gmail.com"
-                                        class="fw-medium d-block text--white">EvenTro@gmail.com</a>
+                                <ul class="footer-social d-flex align-items-center tw-gap-4">
+                                    <li>
+                                        <a href="javascript:void(0);"
+                                            class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
+                                                class="ph-bold ph-facebook-logo"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);"
+                                            class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
+                                                class="ph-bold ph-twitter-logo"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);"
+                                            class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
+                                                class="ph-bold ph-instagram-logo"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);"
+                                            class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
+                                                class="ph-bold ph-pinterest-logo"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 col-md-5">
+                            <div class="footer-address" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="300">
+                                <h4 class="footer-widget-title tw-text-6 fw-semibold text--white tw-mb-6 tw-pb-4">
+                                    Contact info</h4>
+
+                                <div class="footer-address-list d-flex flex-column tw-gap-6">
+                                    <div class="d-flex tw-gap-6">
+                                        <div>
+                                            <span
+                                                class="tw-w-12 tw-h-12 tw-display-inline-center bg--white-10 rounded-circle tw-text-6 text--white">
+                                                <i class="ph-bold ph-envelope-open"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="fw-medium d-block text--white-60">Email us:</span>
+                                            <a class="font-heading fw-bold tw-text-xl d-block text--white hover-text--white"
+                                                href="mailto:yourdomain@gmail.com">info@juw.edu.pk</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex tw-gap-6">
+                                        <div>
+                                            <span
+                                                class="tw-w-12 tw-h-12 tw-display-inline-center bg--white-10 rounded-circle tw-text-6 text--white">
+                                                <i class="ph-bold ph-map-pin"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="fw-medium d-block text--white-60">Location:</span>
+                                            <p
+                                                class="font-heading fw-bold tw-text-xl d-block text--white hover-text--white">
+                                                5C, Block 5 Nazimabad, Karachi
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex tw-gap-6">
+                                        <div>
+                                            <span
+                                                class="tw-w-12 tw-h-12 tw-display-inline-center bg--white-10 rounded-circle tw-text-6 text--white">
+                                                <i class="ph-bold ph-phone-call"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="fw-medium d-block text--white-60">Phone:</span>
+                                            <a class="font-heading fw-bold tw-text-xl d-block text--white hover-text--white"
+                                                href="tel:2085550112">(021) 36620857</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-md-6">
+                        <div class="col-xl-3 col-md-6">
                             <div class="footer-quick-links" data-aos="fade-up" data-aos-duration="1000"
-                                data-aos-delay="300">
-                                <h4 class="footer-two-widget-title tw-text-6 fw-semibold text--white tw-mb-6">
+                                data-aos-delay="400">
+                                <h4 class="footer-widget-title tw-text-6 fw-semibold text--white tw-mb-6 tw-pb-4">
                                     Quick links
                                 </h4>
                                 <ul class="footer-quick-links-list d-flex flex-column tw-gap-4">
@@ -1539,11 +1218,11 @@
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
                                             </span>
-                                            Our Speakers
+                                            Our Team
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"
+                                        <a href="all-events.html"
                                             class="footer-quick-links-item tw-display-inline-center tw-gap-2 text--white hover-text-main-two-600">
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
@@ -1552,12 +1231,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"
+                                        <a href="about.html"
                                             class="footer-quick-links-item tw-display-inline-center tw-gap-2 text--white hover-text-main-two-600">
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
                                             </span>
-                                            24/7 Support
+                                            About Us
                                         </a>
                                     </li>
                                     <li>
@@ -1566,128 +1245,37 @@
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
                                             </span>
-                                            Our FAQs
+                                            Our Projects
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="pricing.html"
+                                        <a href="event-gallery.html"
                                             class="footer-quick-links-item tw-display-inline-center tw-gap-2 text--white hover-text-main-two-600">
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
                                             </span>
-                                            Pricing Plan
+                                            Gallery
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-md-6">
-                            <div class="recent-post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                                <h4 class="footer-two-widget-title tw-text-6 fw-semibold text--white tw-mb-6">
-                                    Our News
-                                </h4>
-                                <ul class="recent-post-list d-flex flex-column tw-gap-4">
-                                    <li>
-                                        <a href="blog-details.html"
-                                            class="recent-post-item tw-display-inline-center tw-gap-4">
-                                            <div
-                                                class="recent-post-item-thumb tw-w-100-px tw-h-100-px tw-w-min-100-px tw-h-min-100-px">
-                                                <img src="assets/images/thumbs/recent-post-thumb1.webp"
-                                                    alt="recent-post"
-                                                    class="w-100 h-100 tw-rounded-xl object-fit-cover">
-                                            </div>
-                                            <div class="recent-post-item-content">
-                                                <p class="post-date tw-text-sm text-main-two-600">Jan 15, 2025</p>
-                                                <p class="post-title tw-text-lg text--white">
-                                                    Holistic Healing: for You Exploring Health
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-details.html"
-                                            class="recent-post-item tw-display-inline-center tw-gap-4">
-                                            <div
-                                                class="recent-post-item-thumb tw-w-100-px tw-h-100-px tw-w-min-100-px tw-h-min-100-px">
-                                                <img src="assets/images/thumbs/recent-post-thumb2.webp"
-                                                    alt="recent-post"
-                                                    class="w-100 h-100 tw-rounded-xl object-fit-cover">
-                                            </div>
-                                            <div class="recent-post-item-content">
-                                                <p class="post-date tw-text-sm text-main-two-600">Jan 15, 2025</p>
-                                                <p class="post-title tw-text-lg text--white">
-                                                    Unlocking the Power of Effective.
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div class="col-xl-3 col-md-6">
-
-                            <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                <h4 class="footer-two-widget-title fw-semibold text--white tw-mb-6">
-                                    Let’s Create your own Event group.
-                                </h4>
-                                <p class="tw-mb-8 text--white-70 fw-medium">
-                                    Making better things takes time. Drop us your email to stay in the know as we work.
-                                </p>
-                                <a class="theme-btn-main bg-main-600 text--white hover-text-heading tw-hover-btn"
-                                    href="javascript:void(0);">
-                                    <span class="theme-btn-text"> Buy A Ticket </span>
-                                    <span class="theme-btn-icon">
-                                        <i class="ph-fill ph-ticket"></i>
-                                    </span>
-                                    <i class="tw-btn-circle-dot bg--white"></i>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="container">
+            <div class="">
                 <!-- Footer Bottom -->
-                <div
-                    class="d-flex align-items-center justify-content-lg-between justify-content-center flex-column-reverse flex-lg-row gap-3 tw-py-8">
-                    <div class="">
-                        <p class="copyright-text text--white text-center mb-0">
-                            © 2025
-                            <a href="index-2.html" class="text--white hover-text-main-two-600">
-                                EvenTro
-                            </a>
-                            Interactive, All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="">
-                        <ul class="footer-social d-flex align-items-center tw-gap-4">
-                            <li>
-                                <a href="javascript:void(0);"
-                                    class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
-                                        class="ph-bold ph-facebook-logo"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);"
-                                    class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
-                                        class="ph-bold ph-twitter-logo"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);"
-                                    class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
-                                        class="ph-bold ph-instagram-logo"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);"
-                                    class="tw-w-10 tw-h-10 lh-1 tw-display-inline-center text--white bg--white-10 rounded-circle hover-bg--white hover-text-heading"><i
-                                        class="ph-bold ph-pinterest-logo"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <p class="copyright-text text--white text-center">
+                    © 2025
+                    <a href="index-2.html" class="text--white hover-text-main-two-600">
+                        EvenTro
+                    </a>
+                    Interactive, All Rights Reserved.
+                </p>
             </div>
+            <!-- ============================ Maquee section Start ======================================= -->
 
         </footer>
         <!-- ==================== Footer End Here ==================== -->

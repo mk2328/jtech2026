@@ -8928,7 +8928,7 @@ input:focus-visible {
   }
 
   .max-w-sm-150-px {
-    max-width: 90px;
+    max-width: 110px;
   }
 
   .max-w-sm-200-px {
@@ -10223,20 +10223,20 @@ input:focus-visible {
 
 .py-120 {
   padding-block-start: 60px;
-  padding-block-end: 60px;
+  padding-block-end: 20px;
 }
 
 @media (min-width: 576px) {
   .py-120 {
     padding-block-start: 80px;
-    padding-block-end: 80px;
+    padding-block-end: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .py-120 {
     padding-block-start: 120px;
-    padding-block-end: 120px;
+    padding-block-end: 40px;
   }
 }
 
@@ -15304,46 +15304,46 @@ body.tw-magic-cursor #magic-cursor {
 }
 
 .brand-five-area .section-title {
-  font-size: 172px;
+  font-size: 150px;
   color: var(--main-two-600);
   font-family: var(--caveat-font);
   text-align: center;
   font-weight: 400;
-  line-height: 70%;
+  /* line-height: 70%; */
   letter-spacing: -3.52px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 @media screen and (max-width: 1399px) {
   .brand-five-area .section-title {
-    font-size: 150px;
+    font-size: 125px;
   }
 }
 
 @media screen and (max-width: 1299px) {
   .brand-five-area .section-title {
-    font-size: 130px;
-    margin-bottom: 60px;
+    font-size: 100px;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 1199px) {
   .brand-five-area .section-title {
-    font-size: 100px;
-    margin-bottom: 40px;
+    font-size: 700px;
+    margin-bottom: 10px;
   }
 }
 
 @media screen and (max-width: 991px) {
   .brand-five-area .section-title {
-    font-size: 80px;
-    margin-bottom: 32px;
+    font-size: 60px;
+    margin-bottom: 15px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .brand-five-area .section-title {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
@@ -16687,7 +16687,7 @@ body.tw-magic-cursor #magic-cursor {
 }
 
 .testimonial-content-body .testimonial-text {
-  font-size: 32px;
+  font-size: 20px !important;
 }
 
 @media screen and (max-width: 1299px) {
