@@ -29,81 +29,8 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <style>
-        /* Mobile Menu Logo */
-        .mobile-menu__logo {
-            justify-content: center;
-        }
 
-        /* JUW Logo */
-        .mobile-logo-juw {
-            max-width: 80px;
-            width: 100%;
-            height: auto;
-        }
-
-        /* JTECH Logo */
-        .mobile-logo-jtech {
-            max-width: 90px;
-            width: 100%;
-            height: auto;
-        }
-
-        /* Extra small devices */
-        @media (max-width: 480px) {
-            .mobile-logo-juw {
-                max-width: 60px;
-            }
-
-            .mobile-logo-jtech {
-                max-width: 70px;
-            }
-        }
-
-        @media (min-width : 1200px) {
-            .cnt {
-                max-width: 1100px !important;
-            }
-        }
-
-        /* --- Team Card Wrapper --- */
-        .team-six-card-thumb-wrapper {
-            height: 400px !important;
-            /* fixed height for all cards */
-            overflow: hidden !important;
-            /* hides extra parts of images */
-            position: relative !important;
-            border-radius: 1rem !important;
-            /* adjust as needed */
-        }
-
-        /* --- Team Images --- */
-        .team-six-card-thumb-wrapper img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover !important;
-            /* fills the wrapper without stretching */
-            display: block !important;
-        }
-
-        /* --- Team Card Content --- */
-        .team-six-card-content {
-            padding-top: 1rem !important;
-        }
-
-        /* Optional: Make it responsive */
-        @media (max-width: 992px) {
-            .team-six-card-thumb-wrapper {
-                height: 300px !important;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .team-six-card-thumb-wrapper {
-                height: 250px !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/common.css">
 </head>
 
 <body class="home-one-bg">
@@ -309,369 +236,73 @@
             </button>
 
             <div class="mobile-menu__inner">
-                <a href="index-2.html" class="mobile-menu__logo">
-                    <img src="assets/images/logo/logo.png" alt="Logo">
+                <a href="index.html" class="mobile-menu__logo d-flex align-items-center gap-2 mb-6">
+                    <img src="assets/images/logo/logo_juw.png" alt="JUW Logo" class="mobile-logo-juw">
+                    <img src="assets/images/logo/logo_jtech.png" alt="JTECH Logo" class="mobile-logo-jtech">
                 </a>
+
                 <div class="mobile-menu__menu">
                     <!-- Nav menu Start -->
-                    <ul class="nav-menu d-xl-flex align-items-center nav-menu--mobile d-block tw-mt-8">
-                        <li class="nav-menu__item has-submenu activePage">
-                            <a href="javascript:void(0);"
-                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Home</a>
-                            <!-- mega menu start -->
-                            <div
-                                class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-z-99">
-                                <div class="row g-4 row-cols-1 row-cols-xl-3">
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-2.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img1.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                    <ul class="nav-menu nav-menu--mobile d-block tw-mt-8">
 
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-2.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-2.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    One</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-3.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img2.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-3.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-3.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    Two</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-4.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img3.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-4.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-4.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    Three</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-5.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img4.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-5.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-5.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    Four</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-5.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img5.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-6.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-6.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    Five</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="mega-menu-item group-item">
-                                            <div
-                                                class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                                                <a href="index-7.html" class="d-block">
-                                                    <img src="assets/images/thumbs/home-img6.webp" alt="Home Page Image"
-                                                        class="tw-h-320-px w-100 object-fit-cover object-top">
-                                                </a>
-                                                <div class="d-lg-flex d-none">
-                                                    <div
-                                                        class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
-                                                    </div>
-                                                    <div
-                                                        class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-
-                                                        <a class="theme-btn-main bg-main-600 text--white border border-main-600 hover-text-main-600 hover-bg--white tw-transition-all"
-                                                            href="index-7.html">
-                                                            <span class="theme-btn-arrow-icon">
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                                <i class="ph ph-arrow-up-right"></i>
-                                                            </span>
-                                                            <span class="theme-btn-text"> Live Preview </span>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-4 text-center">
-                                                <a href="index-7.html"
-                                                    class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home
-                                                    Six</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- mega menu end -->
-                            <ul
-                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99 d-xl-none">
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-2.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home One</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-3.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home Two</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-4.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home Three</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-5.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home Four</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-6.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home Five</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="index-7.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Home Six</a>
-                                </li>
-                            </ul>
+                        <li class="nav-menu__item activePage">
+                            <a href="index.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Home
+                            </a>
                         </li>
-                        <li class="nav-menu__item has-submenu position-relative">
-                            <a href="javascript:void(0);"
-                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Pages</a>
-                            <ul
-                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="about.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        About Us</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="event-gallery.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Event Gallery</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="team.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Team</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="team-details.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Team Details</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="pricing.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Pricing</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="faq.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        FAQ</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-menu__item has-submenu position-relative">
-                            <a href="javascript:void(0);"
-                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Events</a>
-                            <ul
-                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="all-events.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Events
-                                    </a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="events-details.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">Events
-                                        Details</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-menu__item has-submenu position-relative">
-                            <a href="javascript:void(0);"
-                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Shop</a>
-                            <ul
-                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="shop.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Shop</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="shop-details.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Shop Details</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="cart.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Cart</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="checkout.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Checkout</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-menu__item has-submenu position-relative">
-                            <a href="javascript:void(0);"
-                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Blog</a>
-                            <ul
-                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="blog.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Blog</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="blog-list.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Blog List</a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="blog-details.html"
-                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Blog Details</a>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li class="nav-menu__item">
-                            <a href="contact.html"
-                                class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Contacts</a>
+                            <a href="team.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Team
+                            </a>
                         </li>
+
+                        <li class="nav-menu__item">
+                            <a href="events-details.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Event Details
+                            </a>
+                        </li>
+
+                        <li class="nav-menu__item">
+                            <a href="events-details.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Sponsors
+                            </a>
+                        </li>
+
+                        <li class="nav-menu__item">
+                            <a href="event-gallery.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li class="nav-menu__item">
+                            <a href="about.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="nav-menu__item">
+                            <a href="projects.html"
+                                class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li class="nav-menu__item tw-mt-4">
+                            <a href="https://forms.gle/qJUUeWtqmZ25oQ7f6" target="_blank"
+                                class="theme-btn-main bg-main-two-600 text-heading w-100 text-center">
+                                Register Now
+                            </a>
+                        </li>
+
                     </ul>
+
                     <!-- Nav menu End  -->
                 </div>
             </div>
@@ -907,7 +538,7 @@
 
                 <div class="header-left">
                     <!-- Logo Start -->
-                    <div class="logo">
+                    <div class="logo d-flex align-items-center gap-2">
                         <a href="index.html" class="link">
                             <img src="assets/images/logo/logo_juw.png" alt="Logo" width="90">
                             <img src="assets/images/logo/logo_jtech.png" alt="Logo"
@@ -1005,7 +636,7 @@
                     <div class="col-12">
                         <div class="section-wrapper mb-0">
                             <h2 class="section-title">
-                                Core Team
+                                Core Team - JTECH 2026
                             </h2>
                         </div>
                     </div>
@@ -1123,6 +754,44 @@
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
                                         Mehak Merchant
+                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 cs-col-xs-6">
+                        <div class="team-six-card img-glitch-wrapper position-relative z-1" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="700">
+                            <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
+                                <img src="assets/images/team/rida_manazir.jpeg" alt="team" class="team-thumb w-100">
+                                <img src="assets/images/team/rida_manazir.jpeg" alt="team" class="team-thumb w-100">
+                            </div>
+                            <div class="team-six-card-content">
+                                <p class="team-title text-center text--white tw-mb-2">Discipline Management-Senior Head
+                                </p>
+                                <h5 class="team-name text-center">
+                                    <a href="team-details.html">
+                                       Rida Manazir
+                                    </a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 cs-col-xs-6">
+                        <div class="team-six-card img-glitch-wrapper position-relative z-1" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="700">
+                            <div class="team-six-card-thumb-wrapper img-glitch-thumb tw-rounded-2xl">
+                                <img src="assets/images/team/tooba_qamar.jpeg" alt="team" class="team-thumb w-100">
+                                <img src="assets/images/team/tooba_qamar.jpeg" alt="team" class="team-thumb w-100">
+                            </div>
+                            <div class="team-six-card-content">
+                                <p class="team-title text-center text--white tw-mb-2">Graphics-Senior Head
+                                </p>
+                                <h5 class="team-name text-center">
+                                    <a href="team-details.html">
+                                       Tooba Qamar
                                     </a>
                                 </h5>
                             </div>
