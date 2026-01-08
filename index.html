@@ -30,6 +30,52 @@
 
     <link rel="stylesheet" href="assets/css/common.css">
 
+    <style>
+        /* Brand wrapper ko white background diya taake dark logos nazar ayen */
+        .brand-wrapper {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 10px;
+            height: 120px;
+            /* Box ka size barha diya */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Halka sa shadow depth k liye */
+        }
+
+        .brand-wrapper:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+        }
+
+        .brand-wrapper img {
+            max-width: 90%;
+            /* Image width barha di */
+            max-height: 90px;
+            /* Image height barha di */
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            /* Grayscale filter hata diya taake original colors prominent hon */
+            filter: none;
+        }
+
+        /* Mobile screens k liye adjustments */
+        @media (max-width: 576px) {
+            .brand-wrapper {
+                height: 90px;
+                padding: 8px;
+            }
+
+            .brand-wrapper img {
+                max-height: 65px;
+            }
+        }
+    </style>
+
 
 </head>
 
@@ -190,7 +236,7 @@
                         </li>
 
                         <li class="nav-menu__item">
-                            <a href="events-details.html"
+                            <a href="sponsors.html"
                                 class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
                                 Sponsors
                             </a>
@@ -215,6 +261,37 @@
                                 class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
                                 Projects
                             </a>
+                        </li>
+
+                        <li class="nav-menu__item has-submenu position-relative">
+                            <a href="javascript:void(0);"
+                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Previous
+                                JTECH</a>
+                            <ul
+                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/JTECH25/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2025</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/JTECH24/" target="_blank" class="nav-submenu__link hover-bg-neutral-200 
+                                        text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2024</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/jtech2023/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2023</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/jtech2022/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2022</a>
+                                </li>
+
+
+                            </ul>
                         </li>
 
                         <li class="nav-menu__item tw-mt-4">
@@ -244,7 +321,7 @@
                     <!-- Logo Start -->
                     <div class="logo d-flex align-items-center gap-2">
                         <a href="index.html" class="link">
-                            <img src="assets/images/logo/logo_juw.png" alt="Logo" width="90">
+                            <img src="assets/images/logo/logo_juw.png" alt="Logo" style="width: 110px !important;">
                             <img src="assets/images/logo/logo_jtech.png" alt="Logo"
                                 class="max-w-lg-200-px max-w-sm-150-px max-w-100-px">
                         </a>
@@ -274,7 +351,7 @@
                                     Details</a>
                             </li>
                             <li class="nav-menu__item ">
-                                <a href="events-details.html"
+                                <a href="sponsors.html"
                                     class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Sponsors</a>
                             </li>
                             <li class="nav-menu__item ">
@@ -287,8 +364,38 @@
                                     Us</a>
                             </li>
                             <li class="nav-menu__item">
-                                <a href="about.html"
+                                <a href="projects.html"
                                     class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Projects</a>
+                            </li>
+                            <li class="nav-menu__item has-submenu position-relative">
+                                <a href="javascript:void(0);"
+                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Previous
+                                    JTECH</a>
+                                <ul
+                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/JTECH25/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2025</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/JTECH24/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2024</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/jtech2023/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2023</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/jtech2022/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2022</a>
+                                    </li>
+
+
+                                </ul>
                             </li>
                         </ul>
                         <!-- Nav menu End  -->
@@ -507,68 +614,98 @@
         <!-- ============================ Brand section Start ======================================= -->
         <div class="brand-area pb-120 tw-title-scroll-area overflow-hidden">
             <div class="container">
-                <div class="section-wrapper position-relative z-1">
+                <div class="section-wrapper position-relative z-1 mb-5">
                     <h2 class="section-title text-uppercase fw-bold text-stroke-white-2 tw-title-scroll-rtl">
                         Featured Sponsors & Partners
                     </h2>
                 </div>
-                <div class="row row-cols-xl-6 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 g-5 justify-content-center"
+
+                <div class="row row-cols-xl-6 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2 g-4 justify-content-center"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img1.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/1.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img2.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/2.jpeg" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img3.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/3.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img4.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/4.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img5.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/5.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img6.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/6.jpeg" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img7.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/7.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img8.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/8.png" alt="Sponsor">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img9.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/sponsors/9.png" alt="Sponsor">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/1.jfif" alt="Partner">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img10.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/2.png" alt="Partner">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="brand-wrapper d-flex align-items-center justify-content-center">
-                            <span><img src="assets/images/thumbs/brand-img11.png" alt="brand"></span>
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/3.png" alt="Partner">
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/4.jpg" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/5.jpeg" alt="Partner">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/6.jpeg" alt="Partner">
+                        </div>
+                    </div>
+                   
+                    <div class="col">
+                        <div class="brand-wrapper">
+                            <img src="assets/images/partners/8.jpeg" alt="Partner">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -1256,7 +1393,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="faq.html"
+                                        <a href="projects.html"
                                             class="footer-quick-links-item tw-display-inline-center tw-gap-2 text--white hover-text-main-two-600">
                                             <span class="icon tw-display-inline-center">
                                                 <i class="ph ph-caret-double-right"></i>
@@ -1303,7 +1440,9 @@
     <script src="assets/js/mainlibs.min.js" defer></script>
     <script src="assets/js/maincustom.min.js" defer></script>
 
+
     <script>
+
         // Target Date: 6 February 2026 (JTECH Event)
         const targetDate = new Date("2026-02-06T00:00:00");
 
@@ -1336,6 +1475,7 @@
         // Update every second
         setInterval(startCountdown, 1000);
     </script>
+
 
 </body>
 

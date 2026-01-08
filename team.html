@@ -28,6 +28,46 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
 
     <link rel="stylesheet" href="assets/css/common.css">
+    <style>
+        /* Card ko equal height dene ke liye */
+        .team-six-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Image container ko fix karne ke liye */
+        .team-six-card-thumb-wrapper {
+            height: 400px;
+            /* Aap apni marzi se height set kar sakte hain */
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Image ko container mein fit karne ke liye */
+        .team-thumb {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover;
+            /* Isse image stretch nahi hogi, crop ho jaye gi side se */
+            object-position: top;
+            /* Chehra center mein rahega */
+        }
+
+        /* Content area ko nichay barabar karne ke liye */
+        .team-six-card-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .py-120 {
+            padding-block-start: 87px !important;
+            padding-block-end: 20px !important;
+        }
+    </style>
 </head>
 
 <body class="home-one-bg">
@@ -264,7 +304,7 @@
                         </li>
 
                         <li class="nav-menu__item">
-                            <a href="events-details.html"
+                            <a href="sponsors.html"
                                 class="nav-menu__link text--white hover-text-main-600 tw-py-4 fw-medium w-100">
                                 Sponsors
                             </a>
@@ -291,6 +331,37 @@
                             </a>
                         </li>
 
+                        <li class="nav-menu__item has-submenu position-relative">
+                            <a href="javascript:void(0);"
+                                class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Previous
+                                JTECH</a>
+                            <ul
+                                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/JTECH25/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2025</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/JTECH24/" target="_blank" class="nav-submenu__link hover-bg-neutral-200 
+                                        text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2024</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/jtech2023/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2023</a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="https://jtech.juw.edu.pk/jtech2022/" target="_blank"
+                                        class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        JTECH 2022</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
                         <li class="nav-menu__item tw-mt-4">
                             <a href="https://forms.gle/qJUUeWtqmZ25oQ7f6" target="_blank"
                                 class="theme-btn-main bg-main-two-600 text-heading w-100 text-center">
@@ -307,7 +378,7 @@
         <!-- ==================== Mobile Menu End Here ==================== -->
     </div>
 
-    
+
 
     <!-- ==================== Header Start Here ==================== -->
     <header class="header header-one tw-transition-all tw-z-99 position-fixed top-0 start-0 w-100 py-lg-4 py-md-3 py-2">
@@ -318,7 +389,7 @@
                     <!-- Logo Start -->
                     <div class="logo d-flex align-items-center gap-2">
                         <a href="index.html" class="link">
-                            <img src="assets/images/logo/logo_juw.png" alt="Logo" width="90">
+                            <img src="assets/images/logo/logo_juw.png" alt="Logo" style="width: 110px !important;">
                             <img src="assets/images/logo/logo_jtech.png" alt="Logo"
                                 class="max-w-lg-200-px max-w-sm-150-px max-w-100-px">
                         </a>
@@ -348,7 +419,7 @@
                                     Details</a>
                             </li>
                             <li class="nav-menu__item ">
-                                <a href="events-details.html"
+                                <a href="sponsors.html"
                                     class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Sponsors</a>
                             </li>
                             <li class="nav-menu__item ">
@@ -361,8 +432,38 @@
                                     Us</a>
                             </li>
                             <li class="nav-menu__item">
-                                <a href="about.html"
+                                <a href="projects.html"
                                     class="nav-menu__link text--white hover-text-main-600 tw-py-5 fw-medium w-100">Projects</a>
+                            </li>
+                            <li class="nav-menu__item has-submenu position-relative">
+                                <a href="javascript:void(0);"
+                                    class="nav-menu__link tw-pe-4 text--white hover-text-main-600 tw-py-5 fw-medium w-100">Previous
+                                    JTECH</a>
+                                <ul
+                                    class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg--white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/JTECH25/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2025</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/JTECH24/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2024</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/jtech2023/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2023</a>
+                                    </li>
+                                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                        <a href="https://jtech.juw.edu.pk/jtech2022/" target="_blank"
+                                            class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                            JTECH 2022</a>
+                                    </li>
+
+
+                                </ul>
                             </li>
                         </ul>
                         <!-- Nav menu End  -->
@@ -375,7 +476,7 @@
                     <!-- Button Start  -->
                     <div class="header-button">
                         <a class="theme-btn-main bg-main-two-600 text-heading hover-text-heading tw-hover-btn"
-                            href="javascript:void(0);">
+                            href="https://forms.gle/qJUUeWtqmZ25oQ7f6" target="_blank">
                             <span class="theme-btn-text"> Register Now </span>
                             <span class="theme-btn-icon">
                                 <i class="ph-fill ph-ticket"></i>
@@ -386,7 +487,7 @@
                     <!-- Button End  -->
 
 
-                   
+
 
                     <!-- MobileMenu Button Start  -->
                     <button type="button" class="toggle-mobileMenu d-xl-none text--white tw-text-9">
@@ -406,7 +507,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-wrapper mb-0">
-                            <h2 class="section-title">
+                            <h2 class="section-title mt-5">
                                 Core Team - JTECH 2026
                             </h2>
                         </div>
@@ -543,7 +644,7 @@
                                 </p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                       Rida Manazir
+                                        Rida Manazir
                                     </a>
                                 </h5>
                             </div>
@@ -562,7 +663,7 @@
                                 </p>
                                 <h5 class="team-name text-center">
                                     <a href="team-details.html">
-                                       Tooba Qamar
+                                        Tooba Qamar
                                     </a>
                                 </h5>
                             </div>
