@@ -1,0 +1,314 @@
+[
+    {
+        "id": "neuroflex",
+        "title": "NeuroFlex",
+        "category": "NEUROTECHNOLOGY",
+        "supervisor": "Ms. Ummay Faseeha",
+        "team": "Javeria Jalal Shahid, Aqsa Basheer, Noorulain, Aiman Fatima",
+        "summary": "NeuroFlex is a real-time neurofeedback-based cognitive therapy system that uses the EMOTIV Insight EEG device to monitor brain activity and provide personalized therapy through gamified training. The system detects anxiety, learning difficulties, and focus challenges by analyzing EEG brainwave patterns and adapting interactive games that respond to mental states such as focus and relaxation to reinforce positive cognitive behaviors. This approach makes therapy engaging, effective, and motivating, helping users enhance attention, memory, and mental control through structured brain training. Designed for patients with cognitive disorders, students and professionals seeking focus improvement, researchers and therapists studying brainwave activity, gamers exploring neurogaming, and clinics or neurofeedback centers, NeuroFlex offers an innovative solution for improving cognitive functions through EEG-based interactive therapy.",
+        "features": [
+            "Gamified Therapy",
+            "Neurofeedback Monitoring",
+            "Therapist Portal",
+            "Cognitive Training Modules",
+            "Feedback Mechanisms"
+        ],
+        "tools": "React.js, Node.js, Express.js, Firebase",
+        "problem": "Widespread Cognitive Issues: Depression, anxiety, learning difficulties, and focus challenges affect millions, disrupting daily life and personal growth.Impaired Mental Health: These issues lead to low self-esteem, frustration, and stress, hindering individuals’ potential.Limitations of Traditional Approaches: Therapy and medication often focus on symptom management with limited immediate relief or long-term improvement.",
+        "image": "assets/images/Projects/HRHG3rilG5 - Javeria Khan.png"
+    },
+    {
+        "id": "envirobeacon",
+        "title": "Envirobeacon",
+        "category": "SUSTAINABILITY",
+        "supervisor": "Manahil Ali",
+        "team": "Nazia Zahir, Madifa, Khadijah Begum, Khansa",
+        "summary": "EnviroBeacon project is an initiative design to address environmental challenges, promote sustainability and align with UN Sustainable Development Goal such as good health and well-being (SDG 3), Sustainable cities and communities (SDG 11), Responsible consumption and production (SDG 12), Climate action (SDG 13) and Life on land (SDG 15). People contributing to high carbon emission, excessive energy consumption or unmanaged waste that play significant role in environmental degradation, impact air quality and accelerating climate change. Now a days, the rely on public transportation and private vehicles has significantly increases traffic congestion and pollution. Additionally, lack of awareness of individual about their carbon footprint and their impact on climate hinders sustainable practices. This project uses sensors to measure air and noise pollution to measure environmental quality, provide user with personalized carbon footprint calculations and offer interactive and informative video for children. Moreover, it facilitates waste management by collaborating with industries to encourage waste recycling in effective manner. EnviroBeacon aims to empower individuals and organization to take proactive steps towards cleaner environment.",
+        "features": [
+            "Carbon Footprint Tracking",
+            "Real-Time Pollution Monitoring",
+            "Reports & Data Analytics",
+            "Children Awareness Module",
+            "Chatbot Assistance"
+        ],
+        "tools": "MERN Stack, Flutter, Firebase Node.js, Express.js",
+        "problem": "EnviroBeacon addresses environmental challenges and promotes sustainability aligned with UN SDGs 3, 11, 12, 13, and 15. High carbon emissions, excessive energy use, and unmanaged waste are major causes of environmental degradation and climate change. Increasing use of public and private transportation has led to traffic congestion and air pollution. Lack of awareness about personal carbon footprint prevents adoption of sustainable practices. The system uses IoT sensors to measure real-time air and noise pollution. Users receive personalized carbon footprint calculations and sustainability guidance. Children are educated through interactive and informative videos. The platform supports waste management and recycling by collaborating with industries. EnviroBeacon empowers individuals and organizations to take proactive steps toward a cleaner environment.",
+        "image": "assets/images/Projects/Screenshot_20251225-175609 - Nazia Zahir.jpg"
+    },
+    {
+        "id": "stocklytic",
+        "title": "Stocklytic",
+        "category": "AI & FINANCE",
+        "supervisor": "Ms. Ummay Faseeha",
+        "team": "Anosha Waniya, Areeba Khan, Ayesha Fahim, Hafiza Tayyaba",
+        "summary": "The Predictive Business Solution for Kidzo utilizes machine learning to deliver advanced demand forecasting, predictive analysis, and robust security measures. Designed to improve operational efficiency, decision-making, and scalability, the system features a user-friendly interface and custom reporting for personalized insights. By leveraging AI, it predicts demand using historical sales data and enabling dynamic pricing adjustments in real-time. Custom dashboards provide actionable insights, empowering better decision-making with key metrics. To ensure data protection, the solution incorporates encryption and regular audits. The development process includes data collection and cleaning, AI-based forecasting, and dynamic pricing implementation. Rigorous testing ensures reliability, while scalability provisions enable future enhancements to support Kidzo’s ongoing growth.",
+        "features": [
+            "Advanced Analysis",
+            "AI-Powered Decision Advisor",
+            "Predictive Analysis & Demand Forecasting",
+            "Custom Reporting",
+            "Admin Dashboard & System Control"
+        ],
+        "tools": "Next.js, Express.js, Node.js MongoDB, Python, ReactNative, ExpoGo, VisualStudio",
+        "problem": "Users face difficulty in analyzing current stock sales and profit. Lack of centralized platform to monitor multiple stocks effectively. Beginners struggle to make informed decisions based on available data. Admin lacks data-driven suggestions for business decisions. Difficulty in tracking stock performance, sales, and profit in one place. No easy way to generate custom reports for analysis and decision-making.",
+        "image": "assets/images/Projects/page - Anosha Waniya.png"
+    },
+    {
+        "id": "faith-fusion",
+        "title": "Faith Fusion",
+        "category": "EDUCATION",
+        "supervisor": "Dr. Narmeen Zakaria & Ms. Ushna Tasleem",
+        "team": "Maneeha Jawaid, Syeda Hania Fatima, Aimen Arshad, Khadija Aun",
+        "summary": "Faith Fusion is an interactive digital learning platform designed for Gen Alpha (ages 4-15) to explore Islamic teachings through lessons, quizzes, games, and a moderated forum. The platform integrates gamification and self-tracking features to enhance engagement while ensuring a safe and controlled learning environment.",
+        "features": [
+            "User authentication & role-based access (Children, Admins, Parents)",
+            "Interactive lessons & quizzes for structured learning",
+            "Gamification elements (rewards, avatar customization, streak tracking)",
+            " Forum discussions with admin moderation and reporting system",
+            "Self-tracking dashboard for children to monitor progress",
+            "Optional parental linking for viewing child progress (ages 4-12)",
+            "Chatbot",
+            "Smartwatch connected",
+            "Azan alert",
+            "Qibla direction",
+            "Wudu and namaz steps"
+        ],
+        "tools": "Xamp, VS code, Android studio, APIs",
+        "problem": "Generation these days is diverted from Islam, and engaged in other activities which makes them lack Islamic knowledge, to bring them closer to islam we have provided a solution that is interesting and engaging which the user will enjoy along with learning.",
+        "image": "assets/images/Projects/IMG_7202 - Maneeha Jawaid.png"
+    },
+    {
+        "id": "attackaware-2",
+        "title": "AttackAware 2.0",
+        "category": "CYBERSECURITY",
+        "supervisor": "Prof. Dr. Narmeen Zakaria Bawany",
+        "team": "Areefah Syed, Sameen Azam, Warda Altaf, Zara Siddiqui",
+        "summary": "AttackAware 2.0 is a cybersecurity awareness platform designed to educate users about common cyber threats such as phishing attacks, weak passwords, and social engineering techniques. It uses interactive learning methods including real-world attack simulations, quizzes, videos and games to help users understand cyber risks and develop safe online behavior.",
+        "features": [
+            "Phishing Simulation and email tracking",
+            "Cybersecurity Awareness Games",
+            "Interactive Quizzes(Beginner to Advanced)",
+            "Informative Videos",
+            "User & Organization Dashboards"
+        ],
+        "tools": "HTML, CSS, JavaScript, PHP, MySQL",
+        "problem": " Many users fall victim to cyber attacks due to a lack of practical cybersecurity awareness. Most existing cybersecurity solutions are theoretical and lack hands-on learning. Users do not get exposure to real-life cyber attack scenarios. There is a need for an interactive platform that provides real-world attack simulations for better learning.",
+        "image": "assets/images/Projects/IMG_20251226_132908 - Zara Siddiqui.jpg"
+    },
+    {
+        "id": "fun-tech-academy",
+        "title": "Fun Tech Academy",
+        "category": "ED-TECH",
+        "supervisor": "Ms. Hira Sultan",
+        "team": "Sadia Vayani, Sawera Saleem, Syeda Hubb-e-Fatima, Wania Shahid",
+        "summary": "Fun Tech Academy is a game-based educational platform.It is designed to teach programming concepts.The project focuses on learning through play, where students learn coding while playing games.It makes programming easy, interactive, and enjoyable for beginners.",
+        "features": [
+            "Game-based platform for learning coding",
+            "Time-based levels (60 seconds each)",
+            "Level progression and retry option",
+            "Colorful, child-friendly interface",
+            "Automatic level unlocking after completion",
+            "Built-in compiler available after each level completion"
+        ],
+        "tools": "HTML, CSS, JS, PHP, Xampp",
+        "problem": "●Traditional programming is boring for beginners, Theory-based teaching reduces student interest, Few fun and interactive coding platforms, Existing platforms do not provide multiple programming languages in a single system, Beginners struggle without practical learning, Lack of step-by-step and engaging systems",
+        "image": "assets/images/Projects/IMG-20251226-WA0013 - Syeda Hubb-e-Fatima.jpg"
+    },
+    {
+        "id": "masar-al-shifa",
+        "title": "Masar-al-Shifa",
+        "category": "HEALTHCARE",
+        "supervisor": "Ms. Surayya Obaid",
+        "team": "Esha Israr, Laiba Khan, Wardah Sattar, Saadia Ali",
+        "summary": "Masar-al-Shifa is an AI-based smart healthcare system developed for both web and mobile platforms to provide accessible and personalized health guidance. The system uses a Large Language Model (LLM) to deliver real-time medical insights, helping users manage their health more effectively and proactively.The system focuses on clinical assessment, where users enter their symptoms and basic health information. Based on this input, Masar-al-Shifa analyzes the data, determines the risk level, and suggests treatment recommendations using allopathic medicine, homeopathy, and natural or home remedies, allowing users to choose according to their preferences.In addition, the platform provides users with a personalized dashboard that displays important health insights, including BMI, step count, daily water intake, and appointment tracking. The system allows users to calculate their BMI and set, monitor, and track daily water intake goals, helping them maintain healthy habits. It also offers food–food interaction guidance to support safer and more informed dietary choices.The system also includes an AI-powered chatbot that allows users to ask health and fitness–related questions in a conversational manner. The chatbot provides real-time responses related to symptoms, general health concerns, fitness guidance, and lifestyle improvement.With a simple and user-friendly interface, Masar-al-Shifa aims to make healthcare guidance more accessible, preventive, and convenient, enabling users to take better control of their health anytime and anywhere.",
+        "features": [
+            "Clinical assessment using user-entered symptoms.",
+            "Treatment recommendations using allopathic, homeopathic, and home remedies.",
+            "Personalized dashboard showing BMI, step count, water intake, and appointments.",
+            " BMI calculation based on height and weight.",
+            "Daily water intake goal setting and monitoring.",
+            "AI-powered chatbot for health and fitness queries.",
+            "Food–food interaction guidance.",
+            "Simple and user-friendly interface."
+        ],
+        "tools": "React.js, Node.js, Express.js, Firebase, React Native, ExpoGo, Github",
+        "problem": "People face delays and difficulties accessing timely and affordable healthcare. Overcrowded clinics and long waiting times hinder early diagnosis and treatment. Users lack a single platform that provides trusted, personalized health guidance Difficulty in finding holistic treatment options (allopathic, homeopathic, and home remedies) in one place. Limited awareness of daily health management, including fitness, BMI, water intake appointments. Users need instant support for health and fitness queries without visiting a doctor. Lack of guidance on safe food combinations and preventive health measures.",
+        "image": "assets/images/Projects/landing page - Wardah sattar.jpg"
+    },
+    {
+        "id": "digilex",
+        "title": "DigiLex",
+        "category": "SPECIAL EDUCATION",
+        "supervisor": "Ms. Ushna Tasleem",
+        "team": "Sheeza Shabbir, Syeda Laiba Wali, Nawal Shahid, Sehar Fatima",
+        "summary": "DigiLex is a game based mobile learning app designed for dyslexic learners aged 5 to 16. It focuses on making language learning simple, engaging, and stress free through interactive activities.The app supports three languages: English, Urdu, and Arabic, and includes learning modules such as lowercase and uppercase alphabet tracing and the Bossy R phonics game. Each module provides clear visual guidance, text-to-speech audio feedback, and a structured step by step learning flow to help learners understand and remember concepts easily.To keep learners motivated, DigiLex features a streak system, rewards, and positive feedback. User progress, scores, and learning history are securely stored and tracked using Firebase.",
+        "features": [
+            "Designed to support dyslexic learners with a simple and friendly interface",
+            "Game-based learning to make reading and writing fun and engaging",
+            "Interactive games that strengthen letter recognition and word building",
+            "Alphabet tracing with visual guidance for better motor and learning skills",
+            "Audio support to help connect letters with correct sounds",
+            "Bilingual content (English, Urdu, and Arabic) for wider accessibility",
+            "Engaging challenges and rewards to keep learners motivated",
+            "Progress tracking to help parents and teachers see learning growth"
+        ],
+        "tools": "React Native, ExpoGo, Flutter, Firebase, Expo Text-to-Speech, React Native SVG, Javascript, Git, Android Studio",
+        "problem": "1 Dyslexic learners often struggle with traditional reading and writing methods. Lack of engaging, game based learning tools designed specifically for dyslexia. Limited access to multilingual learning support (English, Urdu, Arabic). Insufficient use of audio and visual learning techniques in basic education. Difficulty in tracking learning progress for parents and teachers. Need for an accessible, child-friendly digital solution for early learning support",
+        "image": "assets/images/Projects/IMG-20251226-WA0142 - Sheeza Shabbir.jpg"
+    },
+    {
+        "id": "connectolead",
+        "title": "ConnecToLead",
+        "category": "SOCIAL WELFARE",
+        "supervisor": "Ms. Kanwal Zahoor",
+        "team": "Marium Salman, Marwah Tariq, Nimish Khan, Syeda Masooma Raza",
+        "summary": "ConnecToLead tackles societal challenges by providing a centralized platform for education, empowerment, and community connection. Parents access tailored tech education through workshops, women benefit from legal and health support, and seniors engage with community features like mentorship, social networking and event discovery. An AI-powered chatbot ensures smooth navigation and enhances user experience, making the platform accessible and supportive for all.",
+        "features": [
+            "Community Engagement",
+            "Mentorship Program",
+            "Volunteer Management",
+            "Event Tracking"
+        ],
+        "tools": "React.js, Node.js, MongoDB",
+        "problem": "Need for structured tech and welfare support for women and seniors.",
+        "image": "assets/images/Projects/Screenshot 2025-12-26 192630 - Marium Salman.png"
+    },
+    {
+        "id": "basira-tul-hikmah",
+        "title": "Basira-tul-Hikmah",
+        "category": "ISLAMIC TECH",
+        "supervisor": "Ms. Surayya Obaid",
+        "team": "Iman Nadeem, Fajar Rafiq, Hafsa Farhan",
+        "summary": "Basira-tul-Hikmah is an interactive Quran learning application developed to enhance the understanding and practice of Quranic recitation with a strong focus on Tajweed rules. Traditional Quran learning methods often rely on physical presence and one-on-one instruction, which can limit accessibility and timely feedback for learners. This project addresses these challenges by integrating modern web and mobile technologies with artificial intelligence to provide an engaging, flexible, and personalized learning experience.The application offers structured Tajweed lessons categorized into different difficulty levels—Beginner, Intermediate, and Advanced—allowing users to learn at their own pace. A key feature of Basira-tul-Hikmah is its AI-generated, lesson-based quizzes powered by the Gemini AI model. These quizzes reinforce Tajweed concepts by providing instant feedback and scoring, helping learners identify their strengths and areas for improvement. Instead of direct pronunciation correction, the system evaluates conceptual understanding of Tajweed rules, making learning more accessible and less intimidating for users.",
+        "features": [
+            "Structured Tajweed courses ( Beginner to advanced) ",
+            "AI generated quizzes",
+            "Progress tracking - Monitor learning and development",
+            "Surah verse by verse - Tajweed Rule guidance",
+            "Real time feedback",
+            " Surah Overview ( key ayah highlights) "
+        ],
+        "tools": "Flutter, Firebase, AI/ML",
+        "problem": "Learners need accurate AI-assisted tools for Quran recitation improvement.",
+        "image": "assets/images/Projects/IMG-20251226-WA0032 - Iman Nadeem.jpg"
+    },
+    {
+        "id": "saya-e-falah",
+        "title": "Saya-e-Falah",
+        "category": "HUMANITARIAN",
+        "supervisor": "Prof. Dr. Narmeen Zakaria Bawany & Ms. Kanwal Zahoor",
+        "team": "Hamna Zahid, Nadia Khan, Sarah Barkat Ali, Syeda Sukaina Batool",
+        "summary": "Saya-e-Falah is a welfare-oriented digital platform designed to support humanitarian services by streamlining processes related to missing persons, adoption, and emergency assistance. The system enables users to report and search for missing individuals, submit relevant details with images, and access verified information through a centralized platform. An admin panel manages approvals, records, and status updates to ensure data accuracy and transparency. Built with a focus on usability and social impact, Saya-e-Falah aims to reduce manual effort, improve response time, and enhance coordination between the public and welfare organizations through technology.",
+        "features": [
+            "Missing Person Management Module",
+            "Emergency Alerts & Ambulance Tracking Module",
+            "Adoption Management Module",
+            "Volunteer Network"
+        ],
+        "tools": "Firebase (Database & Authentication), React (Web User Panel), React Native with Expo (Mobile Application),JavaScript,REST APIs",
+        "problem": "Many welfare organizations rely on manual or fragmented systems to manage missing persons, adoption records, and emergency services, leading to delays, data inconsistency, and poor coordination. Saya-e-Falah addresses this problem by providing a centralized digital platform that automates these processes, improves data accuracy, and enables faster access to critical information for both users and administrators.",
+        "image": "assets/images/Projects/LandingPage - Hamna Zahid.PNG"
+    },
+    {
+        "id": "chrom-ai",
+        "title": "Chrom AI",
+        "category": "AI / DEEP LEARNING",
+        "supervisor": "Ms. Ushna Tasleem & Prof. Dr. Narmeen Zakariya Bawany",
+        "team": "Aiman Iqbal, Isra Tariq, Rumesah Khalid, Sara Jawed",
+        "summary": "Facial image analysis for non-invasive preliminary detection of Down Syndrome.",
+        "features": [
+            "Facial Recognition",
+            "AI Prediction Model",
+            "Analytics Dashboard",
+            "Early Detection Alerts"
+        ],
+        "tools": "Python, TensorFlow, OpenCV, React",
+        "problem": "Early detection of Down Syndrome through non-invasive methods is limited.",
+        "image": "assets/images/Projects/IMG_3985 - sara jawed.jpeg"
+    },
+    {
+        "id": "edvoke",
+        "title": "Edvoke",
+        "category": "ACADEMIC MANAGEMENT",
+        "supervisor": "Ms. Surayya Obaid",
+        "team": "Hudaibia Feroz, Laiba Irfan, Nimra Khan Jadoon, Farah Islam",
+        "summary": "AI-powered system for Outcomes-Based Education tracking student performance.",
+        "features": [
+            "Performance Tracking",
+            "Outcome Mapping",
+            "AI Analytics",
+            "Teacher Dashboard"
+        ],
+        "tools": "Python, Django, React",
+        "problem": "Need for efficient tracking of student performance based on OBE standards.",
+        "image": "assets/images/Projects/landing-page - Hudaibia Sarwari.png"
+    },
+    {
+        "id": "spendsmart",
+        "title": "SpendSmart",
+        "category": "FINTECH",
+        "supervisor": "Ms. Arifa Shamim",
+        "team": "Fahama Farooq, Simra Nadir, Sumayya Akhter, Warisha Intizar",
+        "summary": "Personal finance app for Pakistan's economy with AI budgeting tools.",
+        "features": [
+            "AI Budgeting",
+            "Expense Tracking",
+            "Financial Insights",
+            "Custom Alerts"
+        ],
+        "tools": "Flutter, Firebase, AI",
+        "problem": "Users need AI-driven financial planning and expense management.",
+        "image": "assets/images/Projects/sn1 - Simra Nadir.PNG"
+    },
+    {
+        "id": "procrickettrials",
+        "title": "ProCricketTrials",
+        "category": "SPORTS TECH",
+        "supervisor": "Ms. Mehak Abbas",
+        "team": "Raudiyah Iman, Hajra Bibi, Farwa Shoaib, Simra Nawaz Khan",
+        "summary": "Web platform for transparent cricket trials with automated shot detection.",
+        "features": [
+            "Automated Shot Analysis",
+            "Player Tracking",
+            "Trial Scheduling",
+            "Performance Analytics"
+        ],
+        "tools": "React.js, Node.js, OpenCV",
+        "problem": "Lack of transparency and automation in cricket talent scouting.",
+        "image": "assets/images/Projects/a5cedd56-6ae2-44f0-ba09-9bb0beceb492 - Raudiyah Iman...jpg"
+    },
+    {
+        "id": "cyberrazor",
+        "title": "CyberRazor",
+        "category": "CYBER DEFENSE",
+        "supervisor": "Ms. Soomaiya Hamid",
+        "team": "Hiba Sharif, Nisa Iqbal, Ramla Junaid, Vira Siddiqui",
+        "summary": "SOAR framework combining SIEM monitoring with AI for automated incident response.",
+        "features": [
+            "SIEM Integration",
+            "AI Incident Response",
+            "Automated Alerts",
+            "Security Dashboard"
+        ],
+        "tools": "Python, Node.js, React",
+        "problem": "Organizations need automated AI-driven cybersecurity response systems.",
+        "image": "assets/images/Projects/Landing page of Cyberrazor - Hiba Sharif.jpeg"
+    },
+    {
+        "id": "neurify",
+        "title": "Neurify",
+        "category": "NEUROTECHNOLOGY",
+        "supervisor": "Prof. Dr. Narmeen Zakariya Bawany & Ms. Hira Tariq",
+        "team": "Alishba Riaz, Khizra Meer, Tahseen Bano",
+        "summary": "Platform using EEG to capture brainwave data for cognitive focus insights.",
+        "features": [
+            "EEG Data Capture",
+            "Focus Analysis",
+            "Cognitive Insights",
+            "Dashboard & Reports"
+        ],
+        "tools": "Python, React.js, Node.js, TensorFlow",
+        "problem": "Need for a tool that provides cognitive focus insights using EEG.",
+        "image": "assets/images/Projects/NEURIFY - TAHSEEN BANO.PNG"
+    }
+]

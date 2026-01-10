@@ -74,6 +74,52 @@
                 max-height: 65px;
             }
         }
+
+        /* Sirf top banner ke andar walay marquee section ke liye custom styles */
+        .banner-area .maquee-area {
+            padding: 15px 0 !important;
+            /* Height kam karne ke liye padding choti kardi */
+            background: rgba(255, 255, 255, 0.05);
+            /* Thora subtle background jo header ke sath fit ho */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 1% !important;
+        }
+
+        .banner-area .maquee-title {
+            font-size: 1.5rem !important;
+            /* Font size chota kar diya */
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .banner-area .maquee-icon img {
+            width: 20px !important;
+            /* Icon ka size bhi proportional chota */
+        }
+
+        /* Banner section ki adjustment taki marquee header ke sath chipak jaye */
+        .banner-area {
+            padding-top: 125px !important;
+            /* Header ki height ke mutabiq adjust karein */
+        }
+
+        /* Mobile responsive fixes */
+        @media (max-width: 768px) {
+            .banner-area .maquee-title {
+                font-size: 1.2rem !important;
+            }
+
+            .banner-area {
+                padding-top: 90px !important;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .py-lg-4 {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+            }
+        }
     </style>
 
 
@@ -434,12 +480,95 @@
     </header>
     <!-- ==================== Header End Here ==================== -->
     <div id="scrollSmoother-container">
+
         <!-- ============================ Banner section start ======================================= -->
         <section class="banner-area position-relative z-2 overflow-hidden bg-img"
             data-background-image="assets/images/thumbs/banner-bg-overlay.webp">
             <div class="banner-spriller-1 spinner position-absolute pointer-event-none">
                 <img src="assets/images/shapes/spriller-1.webp" alt="shape">
             </div>
+            <!-- ============================ Maquee section Start ======================================= -->
+            <section class="maquee-area overflow-hidden position-relative z-1">
+                <div class="maquee-slider">
+                    <div class="swiper maquee-active mb-0 pb-0">
+                        <div class="swiper-wrapper maquee-transition">
+
+                            <!-- slide 1 -->
+                            <div class="maquee-box d-flex align-items-center tw-gap-10 w-auto swiper-slide">
+                                <div class="maquee-icon">
+                                    <span class="d-inline-block lh-1">
+                                        <img src="assets/images/icons/maquee-icon.svg" alt="icon">
+                                    </span>
+                                </div>
+                                <div class="maquee-content">
+                                    <h5 class="maquee-title text--white display-five fw-bold mb-0 lh-1">
+                                        JTECH 2026 — The Ultimate Tech Showcase
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <!-- slide 2 -->
+                            <div class="maquee-box d-flex align-items-center tw-gap-10 w-auto swiper-slide">
+                                <div class="maquee-icon">
+                                    <span class="d-inline-block lh-1">
+                                        <img src="assets/images/icons/maquee-icon.svg" alt="icon">
+                                    </span>
+                                </div>
+                                <div class="maquee-content">
+                                    <h5 class="maquee-title text--white display-five fw-bold mb-0 lh-1">
+                                        Final Year Projects & Startup Ideas
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <!-- slide 3 -->
+                            <div class="maquee-box d-flex align-items-center tw-gap-10 w-auto swiper-slide">
+                                <div class="maquee-icon">
+                                    <span class="d-inline-block lh-1">
+                                        <img src="assets/images/icons/maquee-icon.svg" alt="icon">
+                                    </span>
+                                </div>
+                                <div class="maquee-content">
+                                    <h5 class="maquee-title text--white display-five fw-bold mb-0 lh-1">
+                                        AI • Blockchain • VR • Emerging Tech
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <!-- slide 4 -->
+                            <div class="maquee-box d-flex align-items-center tw-gap-10 w-auto swiper-slide">
+                                <div class="maquee-icon">
+                                    <span class="d-inline-block lh-1">
+                                        <img src="assets/images/icons/maquee-icon.svg" alt="icon">
+                                    </span>
+                                </div>
+                                <div class="maquee-content">
+                                    <h5 class="maquee-title text--white display-five fw-bold mb-0 lh-1">
+                                        Empowering Women in Technology
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <!-- slide 5 -->
+                            <div class="maquee-box d-flex align-items-center tw-gap-10 w-auto swiper-slide">
+                                <div class="maquee-icon">
+                                    <span class="d-inline-block lh-1">
+                                        <img src="assets/images/icons/maquee-icon.svg" alt="icon">
+                                    </span>
+                                </div>
+                                <div class="maquee-content">
+                                    <h5 class="maquee-title text--white display-five fw-bold mb-0 lh-1">
+                                        Connect with Industry Experts & Innovators
+                                    </h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================ Maquee section End ======================================= -->
             <div class="container tw-container-1624-px">
                 <div class="row justify-content-xl-between justify-content-center">
                     <div class="col-xl-6 col-lg-6 col-md-10 col-12">
@@ -699,7 +828,7 @@
                             <img src="assets/images/partners/6.jpeg" alt="Partner">
                         </div>
                     </div>
-                   
+
                     <div class="col">
                         <div class="brand-wrapper">
                             <img src="assets/images/partners/8.jpeg" alt="Partner">
@@ -1421,11 +1550,10 @@
             <div class="">
                 <!-- Footer Bottom -->
                 <p class="copyright-text text--white text-center">
-                    © 2025
+                    © Department of Computer Science & Software Engineering <br>
                     <a href="index.html" class="text--white hover-text-main-two-600">
-                        JTECH2026
+                        JTECH2026,
                     </a>
-                    Developed by Muskan Kamran<br>
                     All Rights Reserved.
                 </p>
             </div>
